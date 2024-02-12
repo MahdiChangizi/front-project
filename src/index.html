@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body class="bg-[#010a5e] text-white">
+  <!-- Header -->
+  <header class="fixed top-0 left-0 z-50 w-full">
+    <nav class="container mx-auto flex justify-between items-center">
+
+        <div class="flex w-full justify-between items-center mt-6 mx-6 sm:mx-0">
+            <div>
+                <a href="#" class="flex text-4xl uppercase">
+                    <samp class="text-white">Bur</samp>
+                    <span class="text-yellow-500">Gur</span>
+                </a>
+            </div>
+            
+
+            
+            
+            <div id="nav-mobile" 
+            class="hidden absolute top-0 left-0 w-full 
+            text-center py-14 bg-[#010a5e] border-b text-2xl
+            md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto"
+             >
+                
+                <!-- nav mobile -->
+                <div class="md:me-12">
+                    <ul id="nav-mobile-item" class="flex flex-col gap-5 md:flex-row">
+                        <li>
+                            <a href="#" class="hover:text-yellow-500">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-yellow-500">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-yellow-500">Review</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-yellow-500">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- nav mobile -->
+
+
+                <div id="close-btn-nav-mobile" class="md:hidden absolute top-0 right-7 mt-7 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                      </svg>
+                </div>
+
+            </div>
+
+            <!-- nav icon -->
+            <div class="flex gap-5">
+                <a href="#" class="md:ml-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-white"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" /></svg>                      
+                </a>
+                <a href="#" class="md:hidden" id="nav-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-white"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" /></svg>
+                </a>
+            </div>
+            <!-- nav icon -->
+        </div>
+        
+
+    </nav>
+    <!-- <nav class="container flex justify-center items-center p-6 text-white gap-5 mx-auto max-w-5xl">
+        <a href="" class="hover:border-b-2 border-white transition-all duration-200">Home</a>
+        <a href="">About</a>
+    </nav> -->
+  </header>
+  <!-- End Header -->
+  <script src="./script.js"></script>
+
+</body>
+</html>
