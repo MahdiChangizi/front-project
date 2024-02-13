@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      osWald: ['osWand', 'sans-serif'],
+      osWald: ['osWald', 'sans-serif'],
       dmsans: ['Dm Sans', 'sans-serif'],
     }
   },

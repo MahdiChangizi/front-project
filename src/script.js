@@ -1,3 +1,4 @@
+// nav bar code
 const navBtn = document.querySelector("#nav-btn");
 const navMobileSize = document.querySelector("#nav-mobile");
 const closeBtnNavMobile = document.querySelector("#close-btn-nav-mobile");
